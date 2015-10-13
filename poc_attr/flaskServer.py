@@ -32,8 +32,8 @@ def reset():
 @app.route('/feeds')
 def feeds():
 	return render_template('feeds.html')
-	#cam1='http://root:33IoxkAwZ4R@172.16.1.130/mjpg/video.mjpg'
-	#cam2='http://aipoc:aipoc123@172.16.1.3/mjpg/video.mjpg'
+	#cam1='http://un:pw@172.16.1.130/mjpg/video.mjpg'
+	#cam2='http://un:pw@172.16.1.3/mjpg/video.mjpg'
         #return render_template('feeds.html', cam1, cam2)
 
 
