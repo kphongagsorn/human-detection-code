@@ -4,7 +4,7 @@ import urllib2
 import pycurl
 
 url = 'http://192.168.1.8:8000/api/vcpe/1/bandwidth'
-#data ='{"url":"172.16.1.140","username":"onvif","password":"33IoxkAwZ4R","pan":"0.0","tilt":"0.0","zoom":"0.0"}'
+#data ='{"url":"172.16.1.140","username":"un","password":"pw","pan":"0.0","tilt":"0.0","zoom":"0.0"}'
 
 #data = urllib.urlencode(values)
 #req = urllib2.Request(url, data)

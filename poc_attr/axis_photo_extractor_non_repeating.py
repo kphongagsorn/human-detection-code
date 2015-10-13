@@ -9,9 +9,9 @@ from datetime import datetime
 #camera IP Addresses: 172.16.1.{130,140,134,1337}
 camIpAddress='172.16.1.130'
 
-#stream=urllib.urlopen('http://root:33IoxkAwZ4R@172.16.1.129/mjpg/video.mjpg')
-#stream=urllib.urlopen('http://root:33IoxkAwZ4R@'+camIpAddress+'/mjpg/video.mjpg')
-stream=urllib.urlopen('http://root:33IoxkAwZ4R@'+camIpAddress+'/mjpg/video.mjpg')
+#stream=urllib.urlopen('http://username:pw@172.16.1.129/mjpg/video.mjpg')
+#stream=urllib.urlopen('http://username:pw@'+camIpAddress+'/mjpg/video.mjpg')
+stream=urllib.urlopen('http://username:pw@'+camIpAddress+'/mjpg/video.mjpg')
 
 #for reading IP camera stream
 #bytes=''
