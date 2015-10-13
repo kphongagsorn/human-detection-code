@@ -139,8 +139,8 @@ def main():
 
 		#print str(onvifWidthCoord)
 		#print str(onvifHeightCoord)
-
-
+		
+		#calculate pan, tilt conversion for axis cameras from image pixels
 		if onvifWidthCoord < imageCenterX:
 			#zoomHalfWidth = (float(Image.getImageWidth(data[key]))/2.0)/imageCenterX
 			#onvifXFromL = float(Image.getX1(data[key]))/imageCenterX
