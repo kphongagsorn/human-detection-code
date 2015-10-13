@@ -4,7 +4,7 @@ import urllib2
 import pycurl
 
 url = 'http://127.0.0.1:8888/v1/camera/ptz'
-#data ='{"url":"172.16.1.140","username":"onvif","password":"33IoxkAwZ4R","pan":"0.0","tilt":"0.0","zoom":"0.0"}'
+#data ='{"url":"172.16.1.140","username":"un","password":"pw","pan":"0.0","tilt":"0.0","zoom":"0.0"}'
 
 #data = urllib.urlencode(values)
 #req = urllib2.Request(url, data)
@@ -19,7 +19,7 @@ def main():
 	readSuccessfully = fileReadArr[0]
 	onvifX = fileReadArr[1]
 	onvifY = fileReadArr[2]
-	data = '{"url":"172.16.1.129","username":"onvif","password":"33IoxkAwZ4R","pan":"'+ onvifX + '","tilt":"' + onvifY +'","zoom":"2.0"}'
+	data = '{"url":"172.16.1.129","username":"un","password":"pw","pan":"'+ onvifX + '","tilt":"' + onvifY +'","zoom":"2.0"}'
 	#print "curl request:\n"+ data
 	print "moving camera.."
 	if readSuccessfully == "ok":
