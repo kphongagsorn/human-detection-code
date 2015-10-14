@@ -33,7 +33,7 @@ def main():
 	if readSuccessfully == "ok":
 		response = jarWrapper(*args)
 		print response
-		call_nfv_api.main()
+		#call_nfv_api.main()
 	else:
 		print "positive probability too low"
 
