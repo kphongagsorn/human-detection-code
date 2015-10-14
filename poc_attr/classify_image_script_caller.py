@@ -2,8 +2,8 @@ import os
 
 caffePath = "/home/k.phongagsorn/pichai/xci/attribute"
 attrScrPath= "/var/www/html/attr_poc_scripts/test-folder"
-#bashCommandExeScr = "./exe/classify_image_list_kevin2.sh"
-bashCommandExeScr = "./exe/classify_image_list_kevin2_old.sh"
+#bashCommandExeScr = "./exe/classify_image_list_.sh"
+bashCommandExeScr = "./exe/classify_image_list_old.sh"
 bashCommandTest = "pwd"
 
 
