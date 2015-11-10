@@ -28,8 +28,8 @@ def main():
         onvifY = fileReadArr[2]
 	#print str(onvifX)
 	#print str(onvifY)
-	#args = ['onvif.jar', '172.16.1.129', 'onvif', '33IoxkAwZ4R', onvifX, onvifY, '2.0'] # Any number of args to be passed to the jar file
-	args = ['onvif.jar', '172.16.1.130', 'onvif', '33IoxkAwZ4R', onvifX, onvifY, '1.0']
+	#args = ['onvif.jar', '172.16.1.129', 'onvif', 'pw', onvifX, onvifY, '2.0'] # Any number of args to be passed to the jar file
+	args = ['onvif.jar', '172.16.1.130', 'onvif', 'pw', onvifX, onvifY, '1.0']
 	#print "moving camera.."
 	#print "from onvif caller; " + readSuccessfully
 	if readSuccessfully == "ok":
