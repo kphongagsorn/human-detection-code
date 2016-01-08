@@ -1,8 +1,8 @@
 # attribute-detection-poc-scripts
-Python scripts for detecting specified attributes using a convolutional neural network (*CNN model not uploaded).  Moves camera using onvif jar based on positive detection value. 
-##Before:<br>
+Python scripts for detecting specified attributes of a person for a surveillance system proof-of-concept.  This prototype uses a convolution neural network to detect specified attributes of a person (note: CNN model not uploaded).  Based on the positive detection value, the camera will zoom-in on target via onvif.
+##Input:<br>
 ![alt tag](https://github.com/kphongagsorn/human-detection-scripts/blob/master/images/before_0.jpg)<br>
-##After:<br>
+##Output:<br>
 ![alt tag](https://github.com/kphongagsorn/human-detection-scripts/blob/master/images/after_0.jpg)<br>
 Key:<br>
 negative detection, positive detection
