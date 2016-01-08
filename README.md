@@ -1,5 +1,5 @@
 # attribute-detection-poc-scripts
-python scripts for the attribute detection poc 
+python scripts for detecting specified attributes using a convolutional neural network (*CNN not uploaded)
 
 ##Before:<br>
 ![alt tag](https://github.com/kphongagsorn/human-detection-scripts/blob/master/images/before_0.jpg)<br>
