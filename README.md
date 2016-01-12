@@ -11,9 +11,9 @@ References/called code: <br>
 [ONVIF Java](https://github.com/milg0/onvif-java-lib)
 
 ##Input:<br>
-![alt tag](https://github.com/kphongagsorn/human-detection-scripts/blob/master/images/before_0.jpg)<br>
+![alt tag](https://github.com/kphongagsorn/human-detection-scripts/blob/master/images/input.jpg)<br>
 ##Output:<br>
-![alt tag](https://github.com/kphongagsorn/human-detection-scripts/blob/master/images/after_0.jpg)<br>
+![alt tag](https://github.com/kphongagsorn/human-detection-scripts/blob/master/images/output.jpg)<br>
 Key:<br>
 negative detection, positive detection
 
