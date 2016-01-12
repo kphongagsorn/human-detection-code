@@ -6,7 +6,7 @@ These scripts continuously pull images from a real-time streaming IP camera, and
 
 *Currently source code is somewhat messy. I will clean this up when I get the chance, sorry.
 
-References: <br>
+References/called code: <br>
 [Haarcascade source files](https://github.com/Itseez/opencv/tree/master/data/haarcascades)<br>
 [ONVIF Java](https://github.com/milg0/onvif-java-lib)
 
