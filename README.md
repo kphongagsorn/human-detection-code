@@ -1,5 +1,11 @@
 # attribute-detection-poc-scripts
-Python scripts for detecting specified attributes of a person for a surveillance system proof-of-concept.  This prototype uses a convolution neural network to detect specified attributes of a person (*CNN model and related information not uploaded).  Based on the positive detection value, the camera will move and zoom-in on target using onvif.
+Python scripts for detecting specified attributes of a person for a surveillance system proof-of-concept.  This prototype uses a convolution neural network to detect specified attributes of a person (*CNN model and related information not uploaded).  Based on the positive detection value, the camera will move and zoom-in on target using onvif.<br>
+
+These scripts use the haarcascade files found here: 
+[Haarcascade source files](https://github.com/Itseez/opencv/tree/master/data/haarcascades)
+
+*Currently source code is somewhat messy. I will clean this up when I get the chance, sorry.
+
 ##Input:<br>
 ![alt tag](https://github.com/kphongagsorn/human-detection-scripts/blob/master/images/before_0.jpg)<br>
 ##Output:<br>
@@ -7,8 +13,4 @@ Python scripts for detecting specified attributes of a person for a surveillance
 Key:<br>
 negative detection, positive detection
 
-These scripts use the haarcascade files found here: 
-[Haarcascade source files](https://github.com/Itseez/opencv/tree/master/data/haarcascades)
-
-*Currently source code is somewhat messy. I will clean this up when I get the chance, sorry.
 
