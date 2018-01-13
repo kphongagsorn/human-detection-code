@@ -1,5 +1,7 @@
 # Attribute-detection PoC scripts
-Python scripts for detecting specified attributes of a person for a surveillance system proof-of-concept. This prototype uses a convolution neural network to detect specified attributes of a person (*CNN model and related information not uploaded).  Based on the positive detection value, the camera will move and zoom-in on target using onvif.<br>
+Python scripts for detecting specified attributes of a person for a surveillance system proof-of-concept. This prototype uses a convolution neural network to detect specified attributes of a person. Based on the positive detection value, the camera will move and zoom-in on target using onvif.<br>
+
+** CNN model and related information not uploaded **
 
 ## How these scripts work
 These scripts continuously pull images from a real-time streaming camera, and detect a person in an image.  If a person has been detected, these scripts will create an csv with the person's location (top-right coordinate and bottom-left coordinate of bouding box)and input this csv and raw image into a trained CNN.  The CNN outputs a csv with the probabilities for negative and positive detections.  If a positive detection value is over 0.7, a script to move and zoom-in the camera via onvif is called.
